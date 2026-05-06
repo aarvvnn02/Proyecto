@@ -22,7 +22,7 @@ sudo docker-compose up -d
 
 echo "🔄 Actualizando repositorio Git..."
 if [ ! -d src/.git ]; then
-  git clone https://github.com/TU_USUARIO/TU_REPO.git src
+  git clone https://github.com/aarvvnn02/proyecto.git src
 else
   cd src && git pull origin main
 fi
